@@ -4,7 +4,10 @@
   "description": "Disney clone using Next and Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_OPTIONS='--inspect' next",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [
     "Next",
@@ -15,8 +18,15 @@
   "author": "nestoredduardo",
   "license": "MIT",
   "dependencies": {
+    "@types/cors": "^2.8.12",
+    "cors": "^2.8.5",
     "next": "^11.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.0",
+    "@types/react": "^17.0.14",
+    "typescript": "^4.3.5"
   }
 }
