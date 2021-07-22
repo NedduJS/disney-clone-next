@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+
+import Header from '@components/Header';
 
 const index = () => {
   return (
     <div>
-      HomeComing
+      <Header />
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;
