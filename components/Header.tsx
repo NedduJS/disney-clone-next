@@ -111,6 +111,7 @@ const Header = () => {
           background-color: #090b13;
           color: white;
           transition: all 200ms linear;
+          z-index: 1 !important;
         }
         .Header__sidebar ul li {
           margin: 1rem;

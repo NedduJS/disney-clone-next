@@ -13,6 +13,9 @@
       ],
       "@store/*": [
         "store/*"
+      ],
+      "@public/*":[
+        "public/*"
       ]
     },
     "target": "es5",

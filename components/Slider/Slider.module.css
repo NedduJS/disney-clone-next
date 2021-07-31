@@ -1,0 +1,9 @@
+.imageContainer {
+  margin: 1rem 0;
+  width: 95%;
+}
+
+.imageContainer:hover {
+  border: white 3px solid;
+  border-radius: 0.5rem;
+}

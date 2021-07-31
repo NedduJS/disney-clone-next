@@ -8,3 +8,22 @@ html {
   font-size: 62.5%;
   font-family: sans-serif;
 }
+
+.homepage {
+  background-image: url('./public/images/home-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-wrapper {
+  padding-bottom: 2rem;
+}
+
+:root {
+  --swiper-theme-color: rgb(150, 158, 171) !important;
+}
